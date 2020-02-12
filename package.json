@@ -2,8 +2,11 @@
   "name": "@moosty/lisk-htlc",
   "version": "0.1.0",
   "description": "Hashed Time Lock Contract transaction for Lisk SDK based blockchain applications",
-  "main": "src/index.ts",
-  "repository": "https://github.com/moosty/lisk-htlc.git",
+  "main": "dist-node/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moosty/lisk-htlc.git"
+  },
   "author": "Moosty Team <info@moosty.com>",
   "license": "GPL-3.0",
   "scripts": {
@@ -31,5 +34,20 @@
     "tsconfig-paths": "^3.9.0",
     "tslib": "^1.10.0",
     "typescript": "^3.7.3"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/moosty/lisk-htlc/issues"
+  },
+  "homepage": "https://github.com/moosty/lisk-htlc#readme",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "lisk",
+    "custom",
+    "transaction",
+    "htlc",
+    "atomic",
+    "swap"
+  ]
 }

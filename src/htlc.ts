@@ -95,12 +95,12 @@ export class HTLCTransaction extends BaseTransaction {
     }
 
     public getTransactionSubType(tx: any): number {
-        if (tx.asset.type && tx.asset.amount && tx.asset.amount && tx.asset.time) {
-            return subTypes.LOCK;
-        } else if (tx.asset.contractId && tx.asset.data && !tx.asset.amount && !tx.asset.time) {
+        if (tx.asset && tx.asset.contractId && tx.asset.data && !tx.asset.amount && !tx.asset.time && !tx.asset.type) {
             return subTypes.REFUND;
-        } else if (tx.asset.contractId && tx.asset.secret) {
+        } else if (tx.asset && tx.asset.contractId && tx.asset.secret) {
             return subTypes.UNLOCK;
+        } else if (tx.asset && tx.asset.type && tx.asset.amount && tx.asset.amount && tx.asset.time) {
+            return subTypes.LOCK;
         }
         return subTypes.UNKNOWN;
     }
