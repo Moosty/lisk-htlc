@@ -1,0 +1,72 @@
+[
+  {
+    "address": "3874692187556055255L",
+    "publicKey": "",
+    "balance": "0",
+    "secondPublicKey": "",
+    "asset": {}
+  },
+  {
+    "address": "3874692187556055255L",
+    "publicKey": "3031393966152e3fe3da318168a9f66365ec4057d132646da8020681a3dd3655",
+    "balance": "6300000000",
+    "secondPublicKey": "",
+    "asset": {
+      "hash": "ad9c934def9b1538caa5b8557ff1077a0656e27c",
+      "time": 1658697916,
+      "type": "OP_HASH160",
+      "amount": "6300000000",
+      "length": 6,
+      "senderPublicKey": "5c554d43301786aec29a09b13b485176e81d1532347a351aeafe018c199fd7ca",
+      "recipientPublicKey": "bfdd0ed3914d6e1a3e9a039b6bdfda2b77f727cb708354c3d80d0ea945a8749a"
+    }
+  },
+  {
+    "address": "3874692187556055255L",
+    "publicKey": "3031393966152e3fe3da318168a9f66365ec4057d132646da8020681a3dd3655",
+    "balance": "0",
+    "secondPublicKey": "",
+    "asset": {
+      "key": "hahaha",
+      "hash": "ad9c934def9b1538caa5b8557ff1077a0656e27c",
+      "time": 1658697916,
+      "type": "OP_HASH160",
+      "length": 6,
+      "amount": "6300000000",
+      "senderPublicKey": "5c554d43301786aec29a09b13b485176e81d1532347a351aeafe018c199fd7ca",
+      "recipientPublicKey": "bfdd0ed3914d6e1a3e9a039b6bdfda2b77f727cb708354c3d80d0ea945a8749a"
+    }
+  },
+  {
+    "label": "Create new contract",
+    "address": "978942123772140127L",
+    "publicKey": "303139393643f027e734f2048af77579204dc8ed659040eb7cf964b0f22525c2",
+    "balance": "6300000000",
+    "secondPublicKey": "",
+    "asset": {
+      "hash": "ad9c934def9b1538caa5b8557ff1077a0656e27c",
+      "time": 1580940367,
+      "type": "OP_HASH160",
+      "amount": "6300000000",
+      "length": 6,
+      "senderPublicKey": "5c554d43301786aec29a09b13b485176e81d1532347a351aeafe018c199fd7ca",
+      "recipientPublicKey": "bfdd0ed3914d6e1a3e9a039b6bdfda2b77f727cb708354c3d80d0ea945a8749a"
+    }
+  },
+  {
+    "label": "Refund contract",
+    "address": "978942123772140127L",
+    "publicKey": "303139393643f027e734f2048af77579204dc8ed659040eb7cf964b0f22525c2",
+    "balance": "0",
+    "secondPublicKey": "",
+    "asset": {
+      "hash": "ad9c934def9b1538caa5b8557ff1077a0656e27c",
+      "time": 1580940367,
+      "type": "OP_HASH160",
+      "amount": "6300000000",
+      "timedOut": true,
+      "senderPublicKey": "5c554d43301786aec29a09b13b485176e81d1532347a351aeafe018c199fd7ca",
+      "recipientPublicKey": "bfdd0ed3914d6e1a3e9a039b6bdfda2b77f727cb708354c3d80d0ea945a8749a"
+    }
+  }
+]
