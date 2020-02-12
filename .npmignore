@@ -1,0 +1,13 @@
+.gitignore
+
+coverage/
+fixtures/
+src/
+test/
+
+tsconfig.tsbuildinfo
+yarn.lock
+package-lock.json
+.travis.yml
+jest.config.js
+tsconfig.json
