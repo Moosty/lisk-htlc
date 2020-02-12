@@ -2,6 +2,7 @@
 [![Build Status](https://travis-ci.org/moosty/lisk-htlc.svg?branch=master)](https://travis-ci.org/moosty/lisk-htlc)
 [![Coverage Status](https://img.shields.io/codecov/c/github/moosty/lisk-htlc.svg)](https://codecov.io/gh/moosty/lisk-htlc/list/master/)
 [![Dependencies Status](https://david-dm.org/moosty/lisk-htlc.svg)](https://david-dm.org/moosty/lisk-htlc)
+[![Lisk SDK Status](https://img.shields.io/github/package-json/dependency-version/moosty/lisk-htlc/lisk-sdk.svg)](https://github.com/liskhq/lisk-sdk/)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 
 Simpely add this transaction to your Lisk SDK based blockchain application.
