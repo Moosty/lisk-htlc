@@ -11,3 +11,4 @@ package-lock.json
 .travis.yml
 jest.config.js
 tsconfig.json
+.idea/
