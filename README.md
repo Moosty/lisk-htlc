@@ -10,10 +10,10 @@ It allows for atomic swap between other blockchains that allow atomic swap by us
 **This is by no means meant to support the production phase yet.**
 
 # How does it work
-Send an amout of token, from your wallet on a blockchain application made with the Lisk SDK, to a hash time locked contract 
+Send an amount of token, from your wallet on a blockchain application made with the Lisk SDK, to a hash time locked contract 
 using this custom transaction `HTLC-transaction`. After successfully completing the `HTLC-Transaction` the amount will be 
-locked inside the contract wallet. To redeem the locked amount, the recepient can unlock the HTLC by sending the `HTLC-transaction` 
-to the contract wallet with the secret included. If the secret is valid at the transaction is on time, the locked funds in 
+locked inside the contract wallet. To redeem the locked amount, the recipient can unlock the HTLC by sending the `HTLC-transaction` 
+to the contract wallet with the secret included. If the secret is valid and the transaction is not timed out, the locked funds in 
 the contract wallet will be send to the recipient wallet. 
 If the contract is expired, the initial creator of the contract can send a refund `HTLC-transaction` to the contract wallet
  and will receive the funds minus the initial fees back. 
