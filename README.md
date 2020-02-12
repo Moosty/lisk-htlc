@@ -1,6 +1,6 @@
 # Lisk Hash Time Locked Contract transaction
 [![Build Status](https://travis-ci.org/moosty/lisk-htlc.svg?branch=master)](https://travis-ci.org/moosty/lisk-htlc)
-[![Coverage Status](https://img.shields.io/codecov/c/github/moosty/lisk-htlc.svg)](https://codecov.io/gh/corbifex/lisk-htlc/list/master/)
+[![Coverage Status](https://img.shields.io/codecov/c/github/moosty/lisk-htlc.svg)](https://codecov.io/gh/moosty/lisk-htlc/list/master/)
 [![Dependencies Status](https://david-dm.org/moosty/lisk-htlc.svg)](https://david-dm.org/moosty/lisk-htlc)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 
