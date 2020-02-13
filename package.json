@@ -1,7 +1,7 @@
 {
   "name": "@moosty/lisk-htlc",
   "version": "0.1.2",
-  "description": "Hashed Time Lock Contract transaction for Lisk SDK based blockchain applications",
+  "description": "Hash Time Lock Contract transaction for Lisk SDK based blockchain applications",
   "main": "dist-node/index.js",
   "repository": {
     "type": "git",
