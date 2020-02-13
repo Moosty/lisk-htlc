@@ -99,7 +99,7 @@ export class HTLCTransaction extends BaseTransaction {
             return subTypes.REFUND;
         } else if (tx.asset && tx.asset.contractId && tx.asset.secret) {
             return subTypes.UNLOCK;
-        } else if (tx.asset && tx.asset.type && tx.asset.amount && tx.asset.amount && tx.asset.time) {
+        } else if (tx.asset && tx.asset.type && tx.asset.amount && tx.asset.time) {
             return subTypes.LOCK;
         }
         return subTypes.UNKNOWN;
