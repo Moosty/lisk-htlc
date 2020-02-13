@@ -35,7 +35,6 @@ describe('HTLC transaction class', () => {
     let storeAccountCacheStub: jest.SpyInstance;
     let storeAccountGetStub: jest.SpyInstance;
     let storeAccountGetOrDefaultStub: jest.SpyInstance;
-    // let storeAccountGetOrDefaultStubRecipient: jest.SpyInstance;
     let storeAccountSetStub: jest.SpyInstance;
 
 
