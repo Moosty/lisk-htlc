@@ -16,19 +16,12 @@ pipeline {
     stage('Test') {
       steps {
         script {
-          sh 'npm run test'
+          sh 'npm run test:ci'
         }
       }
       post {
         always {
-          publishHTML target: [
-            allowMissing: false,
-            alwaysLinkToLastBuild: false,
-            keepAll: true,
-            reportDir: 'coverage',
-            reportFiles: 'index.html',
-            reportName: 'Test Report'
-          ]
+          junit 'coverage/junit.xml'
         }
       }
     }
