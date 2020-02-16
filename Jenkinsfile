@@ -21,7 +21,6 @@ pipeline {
       }
       post {
         always {
-          coverage 'coverage/cobertura-coverage.xml'
           publishHTML target: [
             allowMissing: false,
             alwaysLinkToLastBuild: false,
