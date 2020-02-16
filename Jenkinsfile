@@ -21,7 +21,15 @@ pipeline {
       }
       post {
         always {
-          step([$class: 'CoberturaPublisher', coberturaReportFile: 'coverage/cobertura-coverage.xml'])
+          coverage 'coverage/cobertura-coverage.xml'
+          publishHTML target: [
+            allowMissing: false,
+            alwaysLinkToLastBuild: false,
+            keepAll: true,
+            reportDir: 'coverage',
+            reportFiles: 'index.html',
+            reportName: 'Test Report'
+          ]
         }
       }
     }
@@ -33,4 +41,5 @@ pipeline {
       }
     }
   }
+
 }
