@@ -15,7 +15,7 @@ jest.spyOn(global.console, "log").mockImplementation(() => jest.fn());
 
 describe('HTLC transaction class', () => {
     const validHTLCLockTransactionInput = validTransactions[0].input;
-    const validHTLCLockTransactionOutput = validTransactions[0].output as HTLCLockTransaction;
+    const validHTLCLockTransactionOutput = validTransactions[0].output as any;
     const validHTLCRedeemTransactionInput = validTransactions[2].input;
     const validHTLCRedeemTransactionOutput = validTransactions[2].output as HTLCUnlockTransaction;
     const validHTLCRefundTransactionInput = validTransactions[1].input;
