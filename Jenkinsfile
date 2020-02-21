@@ -6,10 +6,17 @@ pipeline {
     nodejs 'node-12'
   }
   stages {
+  stage('Pre start') {
+        steps {
+          script {
+            sh 'npm install yarn -g'
+          }
+        }
+      }
     stage('Startup') {
       steps {
         script {
-          sh 'npm install'
+          sh 'yarn install'
         }
       }
     }
